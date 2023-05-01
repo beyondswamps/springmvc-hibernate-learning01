@@ -18,7 +18,5 @@ public class HomeService {
         Session session = sessionFactory.getCurrentSession();
         User user = session.get(User.class, 1);
         return user.getName();
-
     }
-
 }
